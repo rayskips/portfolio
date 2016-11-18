@@ -30,28 +30,21 @@ body{
 /*header section*/
 h1{
   font-family:TT-Moons-Thin-Italic-DEMO;
-  font-size: 4vw;
-  text-align: left;
-  display: inline-block;
+  font-size: 50px;
+  text-align: center;
+  display: block;
   margin: auto;
 
 }
 li{
   font-family: RedVelvet-Regular;
-  display: inline;
-  font-size: 2vw;
+  display: block;
+  font-size: 25px;
   display: flex-inline;
   justify-content: space-around;
 
 }
 
-.grow:hover
-{
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
-        display: inline-block;
-}
 
 ul{
   display: inline;
@@ -101,6 +94,8 @@ ul{
 p.text{
   display:none;
 }
+
+
 @media (min-width: 681px) {
   .quote{
     height:170px;
@@ -109,8 +104,11 @@ p.text{
       padding-right:20%;
       font-family: RedVelvet-Regular;
       font-size: 14px;
+    }
 
-  }
+
+  
+
 
 @media (min-width: 600px) {
   .all{
@@ -130,6 +128,39 @@ height:170px;
   font-family: RedVelvet-Regular;
   font-size: 20px;
 }
+
+
+/*header section*/
+h1{
+  font-family:TT-Moons-Thin-Italic-DEMO;
+  font-size: 4vw;
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+
+}
+li{
+  font-family: RedVelvet-Regular;
+  display: inline;
+  font-size: 2vw;
+  display: flex-inline;
+  justify-content: space-around;
+
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        display: inline-block;
+}
+
+ul{
+  display: inline;
+}
+
+
 /*columns hover effect*/
 p.text{
   width:30%;
