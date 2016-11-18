@@ -2,7 +2,14 @@
 *{
   box-sizing: border-box;
 }
-
+@font-face {
+    font-family: TT-Moons-Thin-Italic-DEMO;
+    src: url(Assets/TT-Moons-Thin-Italic-DEMO.otf);
+}
+h1{
+  font-family:TT-Moons-Thin-Italic-DEMO;
+  font-size: 60px;
+}
 
 
 body{
@@ -16,15 +23,21 @@ body{
   }
 .images{
   margin:auto;
-  width:80%;
   text-align: center;
-  display: inline;
+  display: inline-block;
 
 }
-
+#wrapper{
+  display: inline;
+  width:40%;
+}
 .all{
-  width:48%;
+  width:40%;
   margin: auto;
+  padding:10px;
+}
+p.text{
+  display:none;
 }
 
 
@@ -33,7 +46,7 @@ body{
     width:100%;
 
 }
-
+/*columns hover effect*/
 p.text{
   width:30%;
   display: inline;
@@ -59,6 +72,8 @@ div#wrapper{
 visibility:visible;
 bottom: 50px;
 }
+
+
 
 
 
