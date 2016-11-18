@@ -107,7 +107,7 @@ p.text{
     }
 
 
-  
+
 
 
 @media (min-width: 600px) {
@@ -145,7 +145,7 @@ li{
   font-size: 2vw;
   display: flex-inline;
   justify-content: space-around;
-
+margin: 0 8px;
 }
 
 .grow:hover
