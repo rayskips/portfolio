@@ -1,0 +1,64 @@
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+.body{
+  width: 80%;
+  }
+  .hero{
+    width:100%;
+  }
+
+.images{
+  margin: auto;
+  display: inline;
+}
+.all{
+  width:48%;
+}
+.groupsof2{
+  display: block;
+}
+
+
+
+
+@media (min-width: 600px) {
+  .all{
+    width:33%;
+
+  }
+
+
+.groupsof2{
+  display: inline;
+}
+
+
+
+
+
+#wrapper .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+left:50%;
+bottom: 60px;
+}
+
+
+
+
+
+
+
+
+}
