@@ -6,14 +6,43 @@
     font-family: TT-Moons-Thin-Italic-DEMO;
     src: url(Assets/TT-Moons-Thin-Italic-DEMO.otf);
 }
+
+@font-face {
+    font-family: brushgyo;
+    src: url(Assets/brushgyo.ttf);
+}
+    @font-face {
+        font-family: RedVelvet-Regular;
+        src: url(Assets/RedVelvet-Regular.otf);
+}
+p{
+  font-family: brushgyo;
+  font-size: 60px;
+}
+.quote{
+  font-family: RedVelvet-Regular;
+}
+
+
 h1{
   font-family:TT-Moons-Thin-Italic-DEMO;
   font-size: 60px;
 }
 
+.quote{
+  background-color: mintcream;
+  height:100px;
+  width:100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+  padding-left: 20%;
+  padding-right:20%;
+}
 
 body{
   margin: auto;
+  text-align: center;
   }
 
   .hero{
@@ -22,11 +51,15 @@ body{
     display: block;
   }
 .images{
-  margin:auto;
+  margin: auto;
   text-align: center;
   display: inline-block;
+  width: 80%;
+
 
 }
+/* hover effect*/
+
 #wrapper{
   display: inline;
   width:40%;
@@ -34,7 +67,8 @@ body{
 .all{
   width:40%;
   margin: auto;
-  padding:10px;
+
+
 }
 p.text{
   display:none;
@@ -44,6 +78,7 @@ p.text{
 @media (min-width: 600px) {
   .all{
     width:100%;
+
 
 }
 /*columns hover effect*/
@@ -67,6 +102,7 @@ display: inline;
 div#wrapper{
   width:30%;
   display: inline-block;
+  padding: 10px;
 }
 #wrapper:hover .text {
 visibility:visible;
