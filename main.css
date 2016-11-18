@@ -5,53 +5,59 @@
 
 
 
-.body{
-  width: 80%;
-  }
-  .hero{
-    width:100%;
+body{
+  margin: auto;
   }
 
+  .hero{
+    width:80%;
+    margin: auto;
+    display: block;
+  }
 .images{
-  margin: auto;
+  margin:auto;
+  width:80%;
+  text-align: center;
   display: inline;
+
 }
+
 .all{
   width:48%;
+  margin: auto;
 }
-.groupsof2{
-  display: block;
-}
-
-
 
 
 @media (min-width: 600px) {
   .all{
-    width:33%;
+    width:100%;
 
-  }
-
-
-.groupsof2{
-  display: inline;
 }
 
-
-
-
+p.text{
+  width:30%;
+  display: inline;
+  font-size: 30px;
+  color:white;
+}
 
 #wrapper .text {
 position:relative;
 bottom:30px;
 left:0px;
 visibility:hidden;
+display: inline;
+
+
 }
 
+div#wrapper{
+  width:30%;
+  display: inline-block;
+}
 #wrapper:hover .text {
 visibility:visible;
-left:50%;
-bottom: 60px;
+bottom: 50px;
 }
 
 
