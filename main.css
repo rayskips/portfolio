@@ -26,10 +26,37 @@ p{
 
 h1{
   font-family:TT-Moons-Thin-Italic-DEMO;
-  font-size: 60px;
-  text-align: center;
+  font-size: 4vw;
+  text-align: left;
+  display: inline-block;
   margin: auto;
-  width:90%;
+
+}
+li{
+  font-family: RedVelvet-Regular;
+  display: inline;
+  font-size: 2vw;
+  display: flex-inline;
+  justify-content: space-around;
+
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        display: inline-block;
+}
+
+
+
+
+
+
+
+ul{
+  display: inline;
 }
 
 .quote{
@@ -43,6 +70,7 @@ h1{
   padding-right:20%;
 }
 
+
 body{
   margin: auto;
   text-align: center;
@@ -52,6 +80,7 @@ body{
     width:80%;
     margin: auto;
     display: block;
+    margin-top: 20px;
   }
 .images{
   margin: auto;
@@ -70,6 +99,7 @@ body{
 .all{
   width:40%;
   margin: auto;
+
 
 
 }
@@ -111,6 +141,8 @@ div#wrapper{
 visibility:visible;
 bottom: 50px;
 }
+
+
 
 
 
