@@ -25,6 +25,7 @@ body{
   margin: auto;
   text-align: center;
   }
+  /*footer settings*/
 .footer {
     background-color: mintcream;
     width:100%;
@@ -195,7 +196,7 @@ ul{
 p.text{
   width:30%;
   display: inline;
-  font-size: 3vw;
+  font-size: 2vw;
   color:white;
 }
 
