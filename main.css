@@ -96,7 +96,7 @@ p.text{
 }
 
 
-@media (min-width: 681px) {
+@media screen and (min-width: 681px) {
   .quote{
     height:170px;
       padding-top: 23px;
@@ -110,7 +110,7 @@ p.text{
 
 
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
   .all{
     width:100%;
 }
