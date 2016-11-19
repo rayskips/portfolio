@@ -25,6 +25,17 @@ body{
   margin: auto;
   text-align: center;
   }
+.footer{
+    background-color: mintcream;
+    width:100%;
+    text-align: center;
+    height:60px;
+    padding-top: 18px;
+    font-family: RedVelvet-Regular;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
 
 /*header section*/
 h1{
