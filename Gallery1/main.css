@@ -17,7 +17,7 @@
         font-family: RedVelvet-Regular;
         src: url(Assets/RedVelvet-Regular.otf);
 }
-a{
+p{
   font-family: RedVelvet-Regular;
 }
 
@@ -122,7 +122,7 @@ ul{
   margin: auto;
 
 }
-a.text{
+p.text{
   display:none;
 }
 
@@ -193,7 +193,7 @@ ul{
 
 
 /*columns hover effect*/
-a.text{
+p.text{
   width:30%;
   display: inline;
   font-size: 3vw;
