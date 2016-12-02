@@ -59,7 +59,7 @@ a:active{
 
 
 /*header section*/
-h1{
+#top{
   font-family:TT-Moons-Thin-Italic-DEMO;
   font-size: 50px;
   text-align: center;
@@ -67,6 +67,24 @@ h1{
   margin: auto;
   margin-top: 10px;
 
+}
+#top:hover{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+h2{
+  font-family:RedVelvet-Regular;
+  font-size: 30px;
+  margin-top: 40px;
+}
+h3{
+  font-family:RedVelvet-Regular;
+  margin-bottom: 40px;
 }
 li{
   font-family: RedVelvet-Regular;
@@ -109,7 +127,9 @@ ul{
 .images{
   width: 60%;
 }
-
+#top{
+  display: inline-block;
+}
 
 
 
