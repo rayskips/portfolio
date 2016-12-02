@@ -199,6 +199,12 @@ a.text{
   font-size: 3vw;
   color:white;
 }
+.text{
+  width:30%;
+  display: inline;
+  font-size: 3vw;
+  color:white;
+}
 
 #wrapper .text {
 position:relative;
