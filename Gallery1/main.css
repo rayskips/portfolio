@@ -4,9 +4,10 @@
 *{
   box-sizing: border-box;
 }
+
 @font-face {
     font-family: TT-Moons-Thin-Italic-DEMO;
-    src: url(Assets/TT-Moons-Thin-Italic-DEMO.otf);
+    src: url(../Assets/TT-Moons-Thin-Italic-DEMO.otf);
 }
 
 @font-face {
@@ -81,84 +82,35 @@ ul{
   display: inline;
 }
 
-/*little quote*/
-.quote{
-  background-color: mintcream;
-  height:140px;
-  width:100%;
-  text-align: center;
-  margin: auto;
-  padding-top: 15px;
-  padding-left: 10%;
-  padding-right:10%;
-  font-family: RedVelvet-Regular;
-  font-size: 14px;
-}
 
-/*hero image*/
-
-  .hero{
-    width:100%;
-    margin: auto;
-    display: block;
-    margin-top: 20px;
-  }
   /*column image*/
 .images{
   margin: auto;
   text-align: center;
   display: inline-block;
-  width: 100%;
+  width: 90%;
 
 
 }
-
 #wrapper{
   display: inline;
-  width:49%;
+  width:90%;
 }
 .all{
-  width:49%;
+  width:100%;
   margin: auto;
 
 }
-p.text{
-  display:none;
-}
-
-
-@media screen and (min-width: 681px) {
-  .quote{
-    height:170px;
-      padding-top: 23px;
-      padding-left: 20%;
-      padding-right:20%;
-      font-family: RedVelvet-Regular;
-      font-size: 14px;
-    }
-
-
 
 
 
 @media screen and (min-width: 600px) {
-  .all{
-    width:100%;
-}
+
 .images{
-  width: 80%;
+  width: 60%;
 }
-.hero{
-  width:80%;
-}
-.quote{
-height:170px;
-  padding-top: 23px;
-  padding-left: 20%;
-  padding-right:20%;
-  font-family: RedVelvet-Regular;
-  font-size: 20px;
-}
+
+
 
 
 /*header section*/
@@ -177,14 +129,16 @@ li{
   display: flex-inline;
   justify-content: space-around;
 margin: 0 8px;
+  margin-top: 200px;
 }
-
+/*HOVER EFFECT*/
 .grow:hover
 {
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
         display: inline-block;
+        transition: .7s;
 }
 
 ul{
@@ -192,38 +146,33 @@ ul{
 }
 
 
-/*columns hover effect*/
-p.text{
-  width:30%;
-  display: inline;
-  font-size: 3vw;
-  color:white;
+.one{
+  width:100%;
+  }
 }
-
-#wrapper .text {
-position:relative;
-bottom:30px;
-left:0px;
-visibility:hidden;
+.two{
+  width:100%;
+}
+.three{
+  width:50%;
 display: inline;
-
-
+  margin: -1px;
 }
-
-div#wrapper{
-  width:30%;
-  display: inline-block;
-  padding: 10px;
+.four{
+  width:50%;
+  display: inline;
+  margin: -1px;
 }
-#wrapper:hover .text {
-visibility:visible;
-bottom: 50px;
+.seven{
+  width:50%;
+  display: inline;
+  margin: -1px;
 }
-
-
-
-
-
+.six{
+  width:50%;
+  display: inline;
+  margin: -1px;
+}
 
 
 
