@@ -73,9 +73,7 @@ li{
   font-size: 25px;
   display: flex-inline;
   justify-content: space-around;
-
 }
-
 
 ul{
   display: inline;
@@ -109,8 +107,6 @@ ul{
   text-align: center;
   display: inline-block;
   width: 100%;
-
-
 }
 
 #wrapper{
@@ -125,7 +121,9 @@ ul{
 a.text{
   display:none;
 }
-
+p.text{
+    display:none;
+}
 
 @media screen and (min-width: 681px) {
   .quote{
