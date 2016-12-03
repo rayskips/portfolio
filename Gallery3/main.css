@@ -171,7 +171,9 @@ ul{
   }
 }
 .two{
-  width:100%;
+  width:50%;
+  display: inline;
+    margin: -1px;
 }
 .three{
   width:50%;
@@ -179,9 +181,7 @@ display: inline;
   margin: -1px;
 }
 .four{
-  width:50%;
-  display: inline;
-  margin: -1px;
+  width:100%;
 }
 .seven{
   width:50%;
