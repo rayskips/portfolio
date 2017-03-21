@@ -8,6 +8,10 @@
     font-family: TT-Moons-Thin-Italic-DEMO;
     src: url(Assets/TT-Moons-Thin-Italic-DEMO.otf);
 }
+@font-face {
+    font-family: Gobold Regular;
+    src: url(Assets/Gobold Regular.otf);
+}
 
 @font-face {
     font-family: brushgyo;
@@ -68,17 +72,14 @@ h1{
 
 }
 li{
-  font-family: RedVelvet-Regular;
-  display: block;
-  font-size: 8vw;
-  width:100%;
-	justify-content: flex-center;
-	text-align: center;
-
+font-family: Gobold Regular;
+  font-size: 4vw;
+ color: dimgrey;
+ width: 100%; list-style-type:none; display:block; 
 }
 
 ul{
-  display: block;
+padding:0; margin:0; white-space:nowrap; 
 }
 /*logo*/
 .logo{
@@ -109,6 +110,7 @@ ul{
 #wrapper{
   display: inline;
   width:49%;
+
 }
 .all{
   width:49%;
@@ -149,7 +151,6 @@ h1{
   display: block;
   margin: auto;
 margin-top: -50px;
-	color: antiquewhite;
 	}
 li{
   font-family: RedVelvet-Regular;
