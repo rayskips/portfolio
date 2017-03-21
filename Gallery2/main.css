@@ -40,7 +40,7 @@ body{
 }
  /*logo*/
 .logo{
-  width:30%;
+  width:10px;
 }
 
 a:visited{
@@ -65,7 +65,7 @@ a:active{
 /*header section*/
 #top{
   font-family:TT-Moons-Thin-Italic-DEMO;
-  font-size: 50px;
+  font-size: 200px;
   text-align: center;
   display: block;
   margin: auto;
