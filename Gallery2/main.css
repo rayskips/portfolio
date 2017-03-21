@@ -151,6 +151,13 @@ li{
 margin: 0 8px;
   margin-top: 200px;
 }
+  /*logo*/
+.logo{
+  max-width:10px;
+}
+
+
+
 /*HOVER EFFECT*/
 .grow:hover
 {
