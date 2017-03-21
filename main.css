@@ -133,17 +133,6 @@ p.text{
     display:none;
 }
 
-@media screen and (min-width: 681px) {
-  .quote{
-    height:170px;
-      padding-top: 23px;
-      padding-left: 20%;
-      padding-right:20%;
-      font-family: RedVelvet-Regular;
-      font-size: 14px;
-    }
-
-
 
 
 
@@ -157,22 +146,15 @@ p.text{
 .hero{
   width:80%;
 }
-.quote{
-height:170px;
-  padding-top: 23px;
-  padding-left: 20%;
-  padding-right:20%;
-  font-family: RedVelvet-Regular;
-  font-size: 20px;
-}
+
 
 
 /*header section*/
 h1{
   font-family:TT-Moons-Thin-Italic-DEMO;
   font-size: 4vw;
-  text-align: left;
-  display: inline;
+  text-align: center;
+  display: block;
   margin: auto;
 margin-top: 15px;
 }
