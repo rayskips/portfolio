@@ -163,7 +163,7 @@ li{
   display: inline;
   font-size: 2vw;
   display: flex-inline;
-  justify-content: space-around;
+  
 margin: 0 8px;
 }
 
@@ -176,8 +176,10 @@ margin: 0 8px;
 }
 
 ul{
-  display: inline;
-}
+	display: inline;
+	justify-content: center;
+	text-align: center;
+	}
 
 
 /*columns hover effect*/
