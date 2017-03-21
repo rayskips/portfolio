@@ -69,19 +69,23 @@ h1{
 }
 li{
   font-family: RedVelvet-Regular;
+  display: inline;
+  font-size: 15px;
   display: block;
-  font-size: 25px;
-  display: flex-inline;
   justify-content: space-around;
+	text-align: center;
 }
 
 ul{
-  display: inline;
+  display: block;
 }
 /*logo*/
-.logo="
-height:50px;
-"
+.logo{
+	width:20%;
+	text-align: center;
+}
+	
+
 
 /*little quote*/
 .quote{
@@ -168,7 +172,7 @@ h1{
   font-family:TT-Moons-Thin-Italic-DEMO;
   font-size: 4vw;
   text-align: left;
-  display: inline-block;
+  display: inline;
   margin: auto;
 margin-top: 15px;
 }
