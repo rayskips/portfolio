@@ -78,6 +78,10 @@ li{
 ul{
   display: inline;
 }
+/*logo*/
+.logo="
+height:120px;
+"
 
 /*little quote*/
 .quote{
