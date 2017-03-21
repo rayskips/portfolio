@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 @font-face {
+    font-family: 'ProximaNova';
+     src: url('/fonts/proximanova_regular/ProximaNova-Reg-webfont.eot');
+     src: url('/fonts/proximanova_regular/ProximaNova-Reg-webfont.eot?iefix') format('eot'),
+          url('/fonts/proximanova_regular/ProximaNova-Reg-webfont.woff') format('woff'),
+          url('/fonts/proximanova_regular/ProximaNova-Reg-webfont.ttf') format('truetype'),
+     font-weight: normal;
+     font-style: normal;
+ }
+@font-face {
     font-family: TT-Moons-Thin-Italic-DEMO;
     src: url(Assets/TT-Moons-Thin-Italic-DEMO.otf);
 }
@@ -72,8 +81,10 @@ h1{
 
 }
 li{
-font-family: proxima-nova;
-  font-size: 4vw;
+font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 100;
+  font-size: 6vw;
  color: dimgrey;
  width: 100%; list-style-type:none; display:block; 
 }
@@ -83,7 +94,7 @@ padding:0; margin:0; white-space:nowrap;
 }
 /*logo*/
 .logo{
-	width:80%;
+	width:40%;
 	text-align: center;
 }
 	
@@ -139,7 +150,7 @@ p.text{
 }
 
 .logo{
-	width:40%;
+	width:25%;
 	text-align: center;
 }
 
@@ -150,14 +161,13 @@ h1{
   text-align: center;
   display: block;
   margin: auto;
-margin-top: -50px;
+margin-top: -40px;
 	}
 li{
-  font-family: RedVelvet-Regular;
   font-size: 2vw;
   display: inline;
- padding-left: 2%;
-padding-right:2%;
+ /*padding-left: 2%;
+padding-right:2%;*/
 
 }
 
@@ -171,7 +181,10 @@ padding-right:2%;
 }
 
 ul{
-	display: block;
+	display: flex;
+	justify-content:space-between;
+	width: 60%;
+	margin: auto;
 	}
 
 
