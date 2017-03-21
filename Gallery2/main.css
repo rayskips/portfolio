@@ -38,6 +38,10 @@ body{
     font-size: 20px;
     text-decoration: none;
 }
+ /*logo*/
+.logo{
+  width:30%;
+}
 
 a:visited{
   color: black;
@@ -151,10 +155,7 @@ li{
 margin: 0 8px;
   margin-top: 200px;
 }
-  /*logo*/
-.logo{
-  max-width:10px;
-}
+
 
 
 
