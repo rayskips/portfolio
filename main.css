@@ -78,10 +78,10 @@ font-weight: 100;
 	font-family: proxima-nova, sans-serif;
 font-style: normal;
 font-weight: 100;
-  font-size: 2vw;
+  font-size: 6vw;
  color: dimgrey;
  width: 100%; list-style-type:none; display:block;
-	float:right;
+	padding:10px;
 }
 
 ul{
@@ -149,6 +149,15 @@ p.text{
 	width:25%;
 	text-align: center;
 	
+}
+	.bloglink{
+	font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 100;
+  font-size: 2vw;
+ color: dimgrey;
+ width: 100%; list-style-type:none; display:block;
+	float:right;
 }
 
 /*header section*/
