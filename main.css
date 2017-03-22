@@ -13,19 +13,13 @@
      font-weight: normal;
      font-style: normal;
  }
-@font-face {
-    font-family: TT-Moons-Thin-Italic-DEMO;
-    src: url(Assets/TT-Moons-Thin-Italic-DEMO.otf);
-}
+
 @font-face {
     font-family: Gobold Regular;
     src: url(Assets/Gobold Regular.otf);
 }
 
-@font-face {
-    font-family: brushgyo;
-    src: url(Assets/brushgyo.ttf);
-}
+
     @font-face {
         font-family: RedVelvet-Regular;
         src: url(Assets/RedVelvet-Regular.otf);
@@ -39,17 +33,7 @@ body{
   text-align: center;
   }
   /*footer settings*/
-.footer {
-    background-color: mintcream;
-    width:100%;
-    text-align: center;
-    height:60px;
-    padding-top: 18px;
-    font-family: RedVelvet-Regular;
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-}
+
 
 a:visited{
   color: black;
@@ -72,21 +56,32 @@ a:active{
 
 /*header section*/
 h1{
-  font-family:TT-Moons-Thin-Italic-DEMO;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   display: block;
   margin: auto;
   margin-top: -40px;
 
 }
-li{
+
+
+li {
 font-family: proxima-nova, sans-serif;
 font-style: normal;
 font-weight: 100;
   font-size: 6vw;
  color: dimgrey;
  width: 100%; list-style-type:none; display:block; 
+}
+.bloglink{
+	font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 100;
+  font-size: 2vw;
+ color: dimgrey;
+ width: 100%; list-style-type:none; display:block;
+	float:right;
+}
 }
 
 ul{
@@ -156,7 +151,6 @@ p.text{
 
 /*header section*/
 h1{
-  font-family:TT-Moons-Thin-Italic-DEMO;
   font-size: 6vw;
   text-align: center;
   display: block;
@@ -170,7 +164,7 @@ li{
 padding-right:2%;*/
 
 }
-
+	
 .grow:hover
 {
         -webkit-transform: scale(1.2);
@@ -235,8 +229,9 @@ bottom: 50px;
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1000px) {
 	.everything{
-		max-width:50%;
+		max-width:70%;
+		margin:auto;
 	}
 }
