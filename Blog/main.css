@@ -1,0 +1,203 @@
+/*applies to whole page*/
+
+
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: TT-Moons-Thin-Italic-DEMO;
+    src: url(../Assets/TT-Moons-Thin-Italic-DEMO.otf);
+}
+
+@font-face {
+    font-family: brushgyo;
+    src: url(Assets/brushgyo.ttf);
+}
+    @font-face {
+        font-family: RedVelvet-Regular;
+        src: url(Assets/RedVelvet-Regular.otf);
+}
+p{
+  font-family: RedVelvet-Regular;
+}
+
+body{
+  margin: auto;
+  text-align: center;
+  }
+  /*footer settings*/
+.footer {
+    background-color: mintcream;
+    width:100%;
+    text-align: center;
+    height:60px;
+    padding-top: 18px;
+    font-family: RedVelvet-Regular;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+a:link{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+  text-decoration: none;
+}
+a:active{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/*header section*/
+#top{
+  font-family:TT-Moons-Thin-Italic-DEMO;
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+
+}
+#top:hover{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+h2{
+  font-family:RedVelvet-Regular;
+  font-size: 30px;
+  margin-top: 40px;
+}
+h3{
+  font-family:RedVelvet-Regular;
+  margin-bottom: 40px;
+}
+li{
+  font-family: RedVelvet-Regular;
+  display: block;
+  font-size: 25px;
+  display: flex-inline;
+  justify-content: space-around;
+
+}
+
+
+ul{
+  display: inline;
+}
+
+
+  /*column image*/
+.images{
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  width: 90%;
+
+
+}
+#wrapper{
+  display: inline;
+  width:90%;
+}
+.all{
+  width:100%;
+  margin: auto;
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+.images{
+  width: 60%;
+}
+#top{
+  display: inline-block;
+}
+
+
+
+/*header section*/
+h1{
+  font-family:TT-Moons-Thin-Italic-DEMO;
+  font-size: 4vw;
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+margin-top: 15px;
+}
+li{
+  font-family: RedVelvet-Regular;
+  display: inline;
+  font-size: 2vw;
+  display: flex-inline;
+  justify-content: space-around;
+margin: 0 8px;
+  margin-top: 200px;
+}
+/*HOVER EFFECT*/
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        display: inline-block;
+        transition: .7s;
+}
+
+ul{
+  display: inline;
+}
+
+
+.one{
+  width:100%;
+  }
+}
+.two{
+  width:50%;
+  display: inline;
+    margin: -1px;
+}
+.three{
+  width:50%;
+display: inline;
+  margin: -1px;
+}
+.four{
+  width:100%;
+}
+.seven{
+  width:50%;
+  display: inline;
+  margin: -1px;
+}
+.six{
+  width:50%;
+  display: inline;
+  margin: -1px;
+}
+
+
+
+
+
+
+
+}
